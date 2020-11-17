@@ -9,11 +9,19 @@ const AccountSchema = new Schema({
     },
     nome: {
         type: String,
-        required: true,
+        required: true
     },
     dataNascimento: {
         type: Date,
         required: true,
+    },
+    email: {
+        type: String,
+        required: true
+    },
+    senha: {
+        type: String,
+        required: true
     }
 });
 

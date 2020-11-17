@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const url = "mongodb://localhost:27017/reprograma"
+const url = "mongodb://localhost:27017/Reprograma"
 
 const connect = () => {
   mongoose.set('useUnifiedTopology', true);
